@@ -1,0 +1,8 @@
+[package]
+name = "scaffold-rust-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.8", features = ["cargo", "derive"] }
+simple-log = "1.6.0"
